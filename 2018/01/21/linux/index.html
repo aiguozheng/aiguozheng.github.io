@@ -5,16 +5,16 @@
   
   <title>数据挖掘中常用的Linux命令总结 | 九章草堂</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述，借以巩固基本功。  压缩解压缩命令场景：需要对数据进行压缩和解压缩节省磁盘空间使用方法：   解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看博客 获得详细说">
+  <meta name="description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述， 借以巩固基本功。 压缩解压缩命令   场景：需要对数据进行压缩和解压缩节省磁盘空间 使用方法： 解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看CSDN博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据挖掘中常用的Linux命令总结">
 <meta property="og:url" content="http://yoursite.com/2018/01/21/linux/index.html">
 <meta property="og:site_name" content="九章草堂">
-<meta property="og:description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述，借以巩固基本功。  压缩解压缩命令场景：需要对数据进行压缩和解压缩节省磁盘空间使用方法：   解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看博客 获得详细说">
-<meta property="og:updated_time" content="2018-01-21T14:51:41.302Z">
+<meta property="og:description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述， 借以巩固基本功。 压缩解压缩命令   场景：需要对数据进行压缩和解压缩节省磁盘空间 使用方法： 解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看CSDN博客">
+<meta property="og:updated_time" content="2018-01-21T15:00:30.490Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据挖掘中常用的Linux命令总结">
-<meta name="twitter:description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述，借以巩固基本功。  压缩解压缩命令场景：需要对数据进行压缩和解压缩节省磁盘空间使用方法：   解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看博客 获得详细说">
+<meta name="twitter:description" content="接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述， 借以巩固基本功。 压缩解压缩命令   场景：需要对数据进行压缩和解压缩节省磁盘空间 使用方法： 解压缩 tar -zxvf file.tar.gz 压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩上述命令的详细说明可以参看CSDN博客">
   
     <link rel="alternate" href="/atom.xml" title="九章草堂" type="application/atom+xml">
   
@@ -85,22 +85,30 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述，<br>借以巩固基本功。</p>
-<ol>
-<li>压缩解压缩命令<br>场景：需要对数据进行压缩和解压缩节省磁盘空间<br>使用方法：</li>
+        <p>接触数据挖掘工作有一段时间了，现将数据挖掘工作中常用到的Linux命令分场景、使用方法、注意事项三个方面进行阐述，</p>
+<h2 id="借以巩固基本功。"><a href="#借以巩固基本功。" class="headerlink" title="借以巩固基本功。"></a>借以巩固基本功。</h2><ol>
+<li>压缩解压缩命令</li>
 </ol>
 <ul>
+<li>场景：需要对数据进行压缩和解压缩节省磁盘空间</li>
+<li>使用方法：<ul>
 <li>解压缩 tar -zxvf file.tar.gz</li>
-<li>压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩<br>上述命令的详细说明可以参看<a href="http://blog.csdn.net/done58/article/details/50404237" title="tar命令 文件压缩与解压" target="_blank" rel="external">博客</a> 获得详细说明.<br>注意事项：必会</li>
+<li>压缩 tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩<br>上述命令的详细说明可以参看<a href="http://blog.csdn.net/done58/article/details/50404237" title="tar命令 文件压缩与解压" target="_blank" rel="external">CSDN博客</a> 获得详细说明.</li>
+</ul>
+</li>
+<li>注意事项：必会</li>
 </ul>
 <ol>
-<li>复制命令<br>3.</li>
+<li><p>复制命令</p>
+</li>
+<li><p>待续</p>
+</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/01/21/linux/" data-id="cjcowipcm0003q6h5oe3zt27o" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/01/21/linux/" data-id="cjcowty6l0003rch5df91pwdi" class="article-share-link">Share</a>
       
       
     </footer>
